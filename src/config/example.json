@@ -1,0 +1,14 @@
+{
+    "name": "Generator",
+    "rootDir": "../../",
+    "key": {
+        "controller": {
+            "afterCommand": "",
+            "prefixFileName": "",
+            "suffixFileName": "Controller",
+            "extFileName": ".php",
+            "destinationPath": "controller",
+            "templatePath": "template/controller.html"
+        }
+    }
+}
