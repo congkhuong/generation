@@ -1,3 +1,5 @@
 node_modules/
 src/config/index.json
 src/template/
+
+.DS_Store
