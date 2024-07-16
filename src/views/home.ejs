@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+</head>
+<body>
+    <a href="/create-project">Create Project</a>
+    <h1><%= message %></h1>
+    <table>
+        <tr>
+          <th>Name</th>
+          <th>Name</th>
+        </tr>
+        <% projects.forEach(project => { %>
+            <tr>
+                <td><%= project.name %></td>
+                <td>Germany</td>
+              </tr>
+        <% }) %>
+      </table>
+</body>
+</html>
